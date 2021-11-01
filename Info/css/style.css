@@ -1,0 +1,467 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+    *, *:before, *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+    input::-ms-clear {
+        display: none;
+    }
+
+button {
+    cursor: pointer;
+}
+
+    button::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+
+a, a:visited {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+
+b{
+    font-size:30px;
+}
+.text{
+    width:auto;
+
+    background-color:darkred;
+    display:inline-block;
+    border-radius:10px;
+    border:3px solid darkred;
+    
+    word-spacing:4px;
+
+    margin-left:30px;
+    margin-bottom:20px;
+    margin-top:30px;
+    text-indent:50px;
+    padding-right:30px;
+
+    color:snow;
+    font-size:40px;
+    font-family:Norse;
+
+    transition:all 0.5s ease 0s;
+}
+
+body {
+    background: url('G:/webs/Dark/Dark/images/bg.jpg') 0 0/cover no-repeat fixed;
+    padding: 10px;
+
+
+    position:relative;
+    height:auto;
+    
+}
+.notes{
+text-align:center;
+
+}
+
+
+body h1 {
+    background: url('G:/webs/Dark/Gods/images/pattern_line.jpg') 0 0  no-repeat;
+    background-size:cover;
+    background-position:center;
+    border-radius: 10px;
+    min-height: 56px;
+    font-family: Norse-Bold;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 10px black;
+    margin: 0 0 4px 0;   
+
+    transition: all 0.5s ease 0s;
+}
+
+    body h1:hover {
+        color:snow;
+
+        transition: all 1s ease 0s;
+        background: url('G:/webs/Dark/Gods/images/pattern_line_2.jpg') 0 0 no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+.link{
+    color:black;
+}
+
+.notes {
+    position: sticky;
+    top: 0px;
+}
+
+.notes span{
+    display: inline-block;
+    background-color: rgba(210, 54, 23, 0.5);
+    font-family:Norse;
+    width:180px;
+
+
+    border-radius:10px;
+    padding: 10px;
+    font-size: 45px;
+    color: snow;
+    margin:2px 30px 0px 1px;
+
+
+    transition: all 0.5s ease 0s;
+
+
+
+}
+    .notes span:hover {
+        transition:all 1s ease 0s;
+
+        background-color: rgba(210, 54, 23, 1);
+        color:black;
+        width:200px;
+
+    }
+
+
+.input_1{
+    margin-left:20px;
+
+    font-family:Norse;
+    font-size:30px;
+
+    width:auto;
+
+    padding:15px;
+    border-radius:10px;
+
+    transition:all 0.5s ease 0s;
+}
+
+.input_1:focus {
+    transition: all 1s ease 0s;
+
+
+    background-color:darkred;
+    color:snow;
+
+}
+
+
+    
+    .info{
+        padding:20px 0px;
+        text-align:center;
+        font-size:50px;
+        font-family:Norse-Bold;
+        color:snow;
+
+        transition:all 0.5s ease 0s;
+    }
+        .info:hover {
+            transition:all 1s ease 0s;
+
+            font-size: 70px;
+
+        }
+
+
+.radio{
+    display:none;
+}
+
+.checkbox {
+    display: none;
+}
+
+.fake_radio{
+    top:5px;
+    left:25px;
+    
+
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background-color:snow;
+
+    position:relative;
+
+    border-radius:50%;
+
+    transition:.2s;
+
+    
+
+}
+
+.fake_checkbox {
+    top: 1px;
+    left: 25px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: snow;
+    position: relative;
+    border-radius:3px;
+    transition: .2s;
+
+}
+
+.fake_radio:before {
+   content:"";
+    position:absolute;
+    display:block;
+    width:30px;
+    height:30px;
+
+    background:url('G:/webs/Dark/Info/images/radio.png')0 0 no-repeat;
+    background-size:cover;
+    background-position:center;
+
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    opacity:0;
+    transition:.2s;
+
+    border-radius:50%;
+}
+
+.fake_checkbox:before {
+   content:"";
+    position:absolute;
+    display:block;
+    width:30px;
+    height:30px;
+
+    background:url('G:/webs/Dark/Info/images/mark.png')0 0 no-repeat;
+    background-size:cover;
+    background-position:center;
+
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    opacity:0;
+    transition:.2s;
+
+    border-radius:50%;
+}
+
+.radio:checked + .fake_radio:before{
+    opacity:1;
+
+}
+
+.checkbox:checked + .fake_checkbox{
+    background-color:darkred;
+}
+
+
+.checkbox:checked + .fake_checkbox:before {
+    opacity: 1;
+}
+
+
+.text_radio {
+    margin-left:25px;
+    font-family: Norse;
+    font-size: 30px;
+    color: snow;
+}
+
+.text_checkbox {
+    margin-left: 25px;
+    font-family: Norse;
+    font-size: 40px;
+    color: snow;
+}
+
+.textarea::placeholder {
+    font-size:50px;
+
+}
+
+.textarea{
+    margin-left:30px;
+    border-radius:10px;
+
+    width:600px;
+    height:100px;
+    font-family:Norse;
+
+    font-size:30px;
+
+    transition:.5s;
+}
+
+.textarea:focus{
+    transition:.5s;
+
+    color:snow;
+    background-color:darkred;
+}
+
+select{
+
+    width:150px;
+    height:50px;
+
+    margin-top:0px;
+    margin-left:30px;
+
+    font-size:30px;
+    font-family:Norse;
+
+
+    border-radius:15px;
+
+    transition: all 0.5s ease 0s;
+    
+    cursor:pointer;
+
+
+}
+
+
+option{
+
+    font-family:Norse-Bold;
+
+    background-color:indianred;
+    color:black;
+}
+
+select:hover{
+    outline:none;
+    border:1px solid snow;
+}
+
+select:focus{
+    transition: all 0.5s ease 0s;
+
+    background-color:darkred;
+    color:snow;
+}
+
+.buttons{
+    text-align:center;
+
+    
+}
+
+.button1{
+
+    align-items: center;
+
+    border-radius:10px;
+    margin-left:30px;
+
+    width:200px;
+    height:100px;
+
+    background-color:darkred;
+
+    font-family:Norse-Bold;
+    color:snow;
+    font-size:50px;
+
+    box-shadow: 0 10px 0px #620000;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.button2 {
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: darkred;
+    font-family: Norse-Bold;
+    color: snow;
+    font-size: 50px;
+    box-shadow: 0 10px 0px #620000;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+
+
+    .button1:hover {
+        margin-top:6px;
+
+        box-shadow: 1px 3px 0px #620000;
+        background-color: darkred;
+    }
+
+    .button2:hover {
+        margin-top:6px;
+
+        box-shadow: 1px 3px 0px #620000;
+        background-color: darkred;
+    }
+
+.resetb
+{
+    display:inline-block;
+}
+
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url('G:/webs/Dark/Dark/fonts/NorseBold-2Kge.otf') format("truetype");
+
+}
+@font-face {
+    font-family:Norse;
+    src: url('G:/webs/Dark/Dark/fonts/Norse-KaWl.otf') format("truetype");
+}
