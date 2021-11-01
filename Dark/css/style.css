@@ -1,0 +1,354 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+    *, *:before, *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+    input::-ms-clear {
+        display: none;
+    }
+
+button {
+    cursor: pointer;
+}
+
+    button::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+
+a, a:visited {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+
+
+
+body {
+    background: url('G:/webs/Dark/Dark/images/bg.jpg') 0 0/cover no-repeat fixed;
+    padding: 10px;
+
+    
+}
+.notes{
+text-align:center;
+
+}
+body h1 {
+    background: url('G:/webs/Dark/Dark/images/pattern_line.jpg') 0 0  no-repeat;
+    background-size:cover;
+    background-position:center;
+    border-radius: 10px;
+    min-height: 56px;
+    font-family: Norse-Bold;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 10px black;
+    margin: 0 0 4px 0;
+}
+
+
+.link{
+    color:black;
+}
+
+.notes span{
+    display: inline-block;
+    background-color: rgba(210, 54, 23, 0.5);
+    font-family:Norse;
+    width:180px;
+
+
+    border-radius:10px;
+    padding: 10px;
+    font-size: 45px;
+    color: snow;
+    margin:2px 30px 0px 1px;
+
+
+    transition: all 0.5s ease 0s;
+
+
+
+}
+    .notes span:hover {
+        transition:all 1s ease 0s;
+
+        background-color: rgba(210, 54, 23, 1);
+        color:black;
+        width:200px;
+    }
+
+
+    
+
+.maintext {
+    
+    text-align: center;
+    margin: 10px 0 50px 0;
+    font-size: 25px;
+    font-family: Norse;
+    color: snow;
+}
+
+.the_page {
+    background-color: darkred;
+    border-radius: 10px;
+    padding:0 10px;
+}
+
+
+
+.sign{
+    display:inline-block;
+}
+    
+    .welcome{
+        text-align:center;
+        font-size:35px;
+        font-family:Norse;
+        color:snow;
+
+        transition:all 0.5s ease 0s;
+    }
+        .welcome:hover {
+            transition:all 1s ease 0s;
+
+            font-size: 50px;
+            color: yellow;
+
+        }
+
+.Ancient_Norse {
+    margin: 0 0 0 30px;
+    font-family: Norse;
+    color: snow;
+    font-size: 40px;
+}
+
+.text1 {
+    background-color:darkred;
+    border-radius:10px;
+    padding:0 10px;
+
+    text-align: left;
+    margin: 0 0 30px 270px;
+    font-size: 25px;
+    font-family: Norse;
+    color: snow;
+}
+
+    
+.img1{
+    border-radius:20px;
+    max-width: 400px;
+    max-height: 600px;
+    margin:10px 0px 0 20px;
+
+     transition:all 0.5s ease 0s;
+
+}
+
+.img2 {
+    border-radius: 20px;
+    max-width: 400px;
+    max-height: 450px;
+    margin: 10px 0 0 20px;
+
+    transition:all 0.5s ease 0s;
+}
+
+.img3 {
+    float:right;
+    border-radius: 20px;
+    width: 600px;
+    max-height: 450px;
+    margin: 10px 0px 10px 20px;
+
+    transition:all 0.5s ease 0s;
+}
+
+.img1:hover{
+    transition:all 1s ease 0s;
+
+    max-width: 450px;
+        max-height: 650px;
+
+}
+
+.img2:hover {
+     transition:all 1s ease 0s;
+
+   max-width: 450px;
+        max-height: 500px;
+
+
+    /*animation-name: pic_animetion_2;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;*/
+}
+
+.img3:hover {
+    transition:all 1s ease 0s;
+
+    max-width: 850px;
+        max-height: 500px;
+
+    /*animation-name: pic_animetion_3;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;*/
+}
+
+figcaption:hover {
+
+    transition:all 1s ease 0s;
+
+    font-size:39px;
+}
+
+.pictext {
+    margin:13px 0 0 190px;
+    font-size: 35px;
+    font-family: Norse;
+    color: snow;
+
+    transition:all 0.5s ease 0s;
+}
+
+
+
+
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url('G:/webs/Dark/Dark/fonts/NorseBold-2Kge.otf') format("truetype");
+
+}
+@font-face {
+    font-family:Norse;
+    src: url('G:/webs/Dark/Dark/fonts/Norse-KaWl.otf') format("truetype");
+}
+
+
+/*@keyframes red_border{
+    0% {
+        background-color: rgba(210, 54, 23, 0.5);
+        color: snow;
+        width:120px;
+    }
+    100% {
+        background-color: rgba(210, 54, 23, 1);
+        color:black;
+        width:200px;
+    }
+}*/
+
+/*@keyframes welcome_to{
+    0%{
+        font-size:35px;
+       color:snow;
+    }
+    100%{
+        font-size:50px;
+        color:yellow;
+        
+
+    }
+}*/
+
+/*@keyframes pic_animetion{
+    0% {
+        max-width: 400px;
+        max-height: 600px;
+    }
+    100% {
+        max-width: 450px;
+        max-height: 650px;
+    }
+}*/
+
+/*@keyframes pic_animetion_2 {
+    0% {
+        max-width: 400px;
+        max-height: 450px;
+    }
+
+    100% {
+        max-width: 450px;
+        max-height: 500px;
+    }
+}*/
+
+
+/*@keyframes pic_animetion_3 {
+    0% {
+        max-width: 800px;
+        max-height: 450px;
+    }
+
+    100% {
+        max-width: 850px;
+        max-height: 500px;
+    }
+}*/
+
+@keyframes an_pictext{
+    0%{
+        font-size:35px;
+    }
+    100%{
+        font-size:39px;
+    }
+}
