@@ -1,0 +1,422 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+    *, *:before, *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+    input::-ms-clear {
+        display: none;
+    }
+
+button {
+    cursor: pointer;
+}
+
+    button::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+
+a, a:visited {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+
+.image_1{
+ 
+    background:url('G:/webs/Dark/Events/images/cosmos.jpg') 0 0 no-repeat;
+    background-size:cover;
+
+    width:300px;
+    height:300px;
+
+    border-radius:50%;
+    position:static;
+    left:0;
+    top:2px;
+    float:left;
+
+    transition:all 1s ease 0s;
+}
+
+.image_2{
+ 
+    background:url('G:/webs/Dark/Events/images/origin.jpg') 0 0 no-repeat;
+    background-size:cover;
+
+    width:300px;
+    height:300px;
+
+   margin-top:40px;
+
+    border-radius:50%;
+    float:right;
+
+    transition:all 0.5s ease 0s;
+}
+
+.image_3{
+ 
+    background:url('G:/webs/Dark/Events/images/ragnarok.jpg') 0 0 no-repeat;
+
+    background-size:cover;
+
+    width:300px;
+    height:300px;
+
+    border-radius:50%;
+    float:left;
+
+    margin-top:130px;
+
+    transition:all 1s ease 0s;
+}
+
+.image_4{
+ 
+    background:url('G:/webs/Dark/Events/images/fate.jpg') 0 0 no-repeat;
+    background-size:cover;
+
+    width:300px;
+    height:300px;
+
+
+   margin-top:0px;
+
+    border-radius:50%;
+    float:right;
+
+    transition:all 0.5s ease 0s;
+}
+
+
+.big_text{
+    display:inline;
+    border:5px solid darkred;
+
+    font-size:35px;
+    font-family:Norse;
+    color:snow;
+    font-weight:700;
+
+    background-color:darkred;
+    border-radius:15px;
+    
+}
+
+.big_text_ragnarok{
+    margin-top:100px;
+
+    display:inline-block;
+    border:5px solid darkred;
+
+    font-size:35px;
+    font-family:Norse;
+    color:snow;
+    font-weight:700;
+
+    background-color:darkred;
+    border-radius:15px;
+    
+}
+
+.medium_text{
+    margin-top:15px;
+    margin-right:40px;
+    float:right;
+
+    
+
+
+
+
+    font-family:Norse;
+    color:snow;
+    font-size:30px;
+
+    border-radius:10px;
+    border:5px solid darkred;
+    background-color:darkred;
+
+}
+
+.text{
+    word-spacing:4px;
+
+    margin-top:30px;
+    text-indent:50px;
+
+    color:snow;
+    font-size:25px;
+    font-family:Norse;
+
+    transition:all 0.5s ease 0s;
+}
+
+.text_final{
+    word-spacing:4px;
+
+    margin-top:120px;
+    text-indent:50px;
+
+    color:snow;
+    font-size:25px;
+    font-family:Norse;
+
+    transition:all 0.5s ease 0s;
+}
+
+.text:hover{
+    transition:all 0.5s ease 0s;
+
+
+    background-color:indianred;
+    border-radius:10px;
+
+    font-size:30px;
+
+    
+}
+
+.text_right:hover{
+    transition:all 0.5s ease 0s;
+
+
+    background-color:indianred;
+    border-radius:10px;
+
+    font-size:30px;
+
+    
+}
+
+.text_final:hover{
+    transition:all 0.5s ease 0s;
+
+
+    background-color:indianred;
+    border-radius:10px;
+
+    font-size:30px;
+
+    
+}
+
+mark{
+    border:3px solid darkred;
+    border-radius:3px;
+
+    background-color:darkred;  
+    font-size:27px;
+    color:snow;
+
+    font-style:italic;
+}
+
+
+.text_right {
+    margin-top: 70px;
+    text-indent: 50px;
+
+    color: snow;
+    font-size: 25px;
+    font-family: Norse;
+
+    transition:all 0.5s ease 0s;
+}
+
+.image_1:hover{
+    transition:all 2s ease 0s;
+
+    transform:rotate(360deg);
+}
+
+.image_2:hover{
+    transition:all 1s ease 0s;
+
+   width:350px;
+   height:350px;
+
+}
+
+.image_3:hover{
+    transition:all 1s ease 0s;
+
+    background:url('G:/webs/Dark/Events/images/ragnarok.gif') 0 0 no-repeat;
+    background-size:cover;
+
+    width:450px;
+
+}
+
+.image_4:hover{
+    transition:all 1s ease 0s;
+
+   transform:scale(-1,1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background: url('G:/webs/Dark/Dark/images/bg.jpg') 0 0/cover no-repeat fixed;
+    padding: 10px;
+
+    position:relative;
+    height:auto;
+    
+}
+.notes{
+text-align:center;
+
+}
+
+
+body h1 {
+    background: url('G:/webs/Dark/Gods/images/pattern_line.jpg') 0 0  no-repeat;
+    background-size:cover;
+    background-position:center;
+    border-radius: 10px;
+    min-height: 56px;
+    font-family: Norse-Bold;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 10px black;
+    margin: 0 0 4px 0;   
+
+    transition: all 0.5s ease 0s;
+}
+
+    body h1:hover {
+        color:snow;
+
+        transition: all 1s ease 0s;
+        background: url('G:/webs/Dark/Gods/images/pattern_line_2.jpg') 0 0 no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+.link{
+    color:black;
+}
+
+.notes {
+    position: sticky;
+    top: 0px;
+}
+
+.notes span{
+    display: inline-block;
+    background-color: rgba(210, 54, 23, 0.5);
+    font-family:Norse;
+    width:180px;
+
+
+    border-radius:10px;
+    padding: 10px;
+    font-size: 45px;
+    color: snow;
+    margin:2px 30px 0px 1px;
+
+
+
+    transition: all 0.5s ease 0s;
+
+
+
+}
+    .notes span:hover {
+        transition:all 1s ease 0s;
+
+        background-color: rgba(210, 54, 23, 1);
+        color:black;
+        width:200px;
+
+    }
+
+
+  
+
+    
+    .events{
+        padding:20px 0px;
+        text-align:center;
+        font-size:50px;
+        font-family:Norse-Bold;
+        color:snow;
+
+        transition:all 0.5s ease 0s;
+    }
+        .events:hover {
+            transition:all 1s ease 0s;
+
+            font-size: 70px;
+
+        }
+
+
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url('G:/webs/Dark/Dark/fonts/NorseBold-2Kge.otf') format("truetype");
+
+}
+@font-face {
+    font-family:Norse;
+    src: url('G:/webs/Dark/Dark/fonts/Norse-KaWl.otf') format("truetype");
+}
