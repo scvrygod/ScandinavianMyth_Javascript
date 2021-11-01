@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+    *, *:before, *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+    input::-ms-clear {
+        display: none;
+    }
+
+button {
+    cursor: pointer;
+}
+
+    button::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+
+a, a:visited {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+
+.image_odin{
+   
+    background:url('G:/webs/Dark/Gods/images/Odin.jpg')0 0/cover no-repeat;
+    box-shadow:1px 1px 7px snow;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    margin-bottom:20px;
+
+    width:500px;
+    height:600px;
+    border-radius:15px;
+
+    transition:all 0.5s ease 0s;
+
+    cursor: pointer;
+}
+
+.image_thor{
+   
+    background:url('G:/webs/Dark/Gods/images/Thor.jpg')0 0/cover no-repeat;
+    box-shadow:1px 1px 7px snow;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    margin-bottom:20px;
+
+    width:700px;
+    height:600px;
+    border-radius:15px;
+
+    transition:all 0.5s ease 0s;
+
+    cursor: pointer;
+}
+
+.image_loki{
+   
+    background:url('G:/webs/Dark/Gods/images/loki.jpg')0 0/cover no-repeat;
+    box-shadow:1px 1px 7px snow;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    margin-bottom:20px;
+
+    width:500px;
+    height:600px;
+    border-radius:15px;
+
+    transition:all 0.5s ease 0s;
+
+    cursor: pointer;
+}
+
+.image_frigg{
+   
+    background:url('G:/webs/Dark/Gods/images/frigg.jpg')0 0/cover no-repeat;
+    box-shadow:1px 1px 10px snow;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    margin-bottom:20px;
+
+    width:500px;
+    height:600px;
+    border-radius:15px;
+
+    transition:all 0.5s ease 0s;
+
+    cursor: pointer;
+}
+
+.image_baldur{
+   
+    background:url('G:/webs/Dark/Gods/images/baldr.jpg')0 0/cover no-repeat;
+    box-shadow:1px 1px 7px snow;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    margin-bottom:20px;
+
+    width:500px;
+    height:600px;
+    border-radius:15px;
+
+    transition:all 0.5s ease 0s;
+
+    cursor: pointer;
+}
+
+.gods_big{
+    display:inline-block;
+    font-family:Norse-Bold;
+    font-size:60px;
+    color:snow;
+
+    margin-left:135px;
+    padding:1px;
+
+    transition: all 0.5s ease 0s;
+}
+
+.gods_p {
+    text-indent: 230px;
+    font-family: Norse;
+    font-size: 20px;
+    color: snow;
+
+    transition:all 0.1s ease 0s;
+}
+
+    .gods_p:hover {
+        transition: all 0.1s ease 0s;
+
+        border-radius:8px;
+        background-color:darkred;
+        font-size:26px;
+        margin-bottom:8px;
+    }
+
+body {
+    background: url('G:/webs/Dark/Dark/images/bg.jpg') 0 0/cover no-repeat fixed;
+    padding: 10px;
+
+    position:relative;
+    height:auto;
+    
+}
+.notes{
+text-align:center;
+
+}
+
+
+body h1 {
+    background: url('G:/webs/Dark/Gods/images/pattern_line.jpg') 0 0  no-repeat;
+    background-size:cover;
+    background-position:center;
+    border-radius: 10px;
+    min-height: 56px;
+    font-family: Norse-Bold;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 10px black;
+    margin: 0 0 4px 0;   
+
+    transition: all 0.5s ease 0s;
+}
+
+    body h1:hover {
+        color:snow;
+
+        transition: all 1s ease 0s;
+        background: url('G:/webs/Dark/Gods/images/pattern_line_2.jpg') 0 0 no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+.link{
+    color:black;
+}
+
+.notes {
+    position: sticky;
+    top: 0px;
+}
+
+.notes span{
+    display: inline-block;
+    background-color: rgba(210, 54, 23, 0.5);
+    font-family:Norse;
+    width:180px;
+
+
+    border-radius:10px;
+    padding: 10px;
+    font-size: 45px;
+    color: snow;
+    margin:2px 30px 0px 1px;
+
+
+
+    transition: all 0.5s ease 0s;
+
+
+
+}
+    .notes span:hover {
+        transition:all 1s ease 0s;
+
+        background-color: rgba(210, 54, 23, 1);
+        color:black;
+        width:200px;
+
+    }
+
+
+  
+
+    
+    .gods{
+        padding:20px 0px;
+        text-align:center;
+        font-size:50px;
+        font-family:Norse-Bold;
+        color:snow;
+
+        transition:all 0.5s ease 0s;
+    }
+        .gods:hover {
+            transition:all 1s ease 0s;
+
+            font-size: 70px;
+
+        }
+
+.text1 {
+
+    text-align: left;
+    margin: 0 0 30px 270px;
+    font-size: 25px;
+    font-family: Norse;
+    color: snow;
+}
+
+
+.image_odin:hover {
+    transition:all 1s ease 0s;
+
+    width:600px;
+    height:700px;
+
+}
+
+.image_thor:hover {
+    transition: all 1s ease 0s;
+    width: 800px;
+    height: 700px;
+}
+
+.image_loki:hover {
+    transition: all 1s ease 0s;
+    width: 550px;
+    height: 660px;
+}
+
+.image_frigg:hover {
+    transition: all 1s ease 0s;
+    width: 550px;
+    height: 660px;
+}
+
+.image_baldur:hover {
+    transition: all 1s ease 0s;
+    width: 550px;
+    height: 660px;
+}
+
+.gods_big:hover {
+    transition:all 0.5s ease 0s;
+    font-size:80px;
+
+    cursor: pointer;
+}
+
+
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url('G:/webs/Dark/Dark/fonts/NorseBold-2Kge.otf') format("truetype");
+
+}
+@font-face {
+    font-family:Norse;
+    src: url('G:/webs/Dark/Dark/fonts/Norse-KaWl.otf') format("truetype");
+}
